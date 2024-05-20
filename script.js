@@ -284,12 +284,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-
-document.addEventListener("DOMContentLoaded", function() {
-  const earthDropdownBtn = document.getElementById("earthDropdownBtn");
-  const earthDropdownMenu = document.getElementById("earthDropdownMenu");
-
-  earthDropdownBtn.addEventListener("click", function() {
-    earthDropdownMenu.classList.toggle("show");
-  });
-});
